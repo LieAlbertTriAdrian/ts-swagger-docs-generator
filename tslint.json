@@ -1,0 +1,15 @@
+{
+    "extends": [
+        "tslint:latest",
+        "tslint-sonarts",
+        "tslint-clean-code",
+        "tslint-config-prettier"
+    ],
+    "rules": {
+        "no-implicit-dependencies": [true, "dev"],
+        "max-classes-per-file": false,
+        "object-literal-sort-keys": false,
+        "no-console": [true, "log", "error"],
+        "no-duplicate-string": [true, 5]
+    }
+}
